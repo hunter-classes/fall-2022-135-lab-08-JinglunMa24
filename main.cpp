@@ -3,11 +3,21 @@
 #include "imageio.h"
 
 int main() {
-	invert("image1.pgm"); // Task A
+	std::cout << "Running...\n";
 
-	invert_half("image2.pgm"); // Task B
+	invert("inImage.pgm"); // Task A
 
-	box("image2.pgm"); // Task C
+	invert_half("inImage.pgm"); // Task B
+
+	box("inImage.pgm"); // Task C
+
+	frame("inImage.pgm"); // Task D
+
+	scale("inImage.pgm"); // Task E
+
+	pixelate("inImage.pgm"); // Task F
+
+	std::cout << "Completed.\n";
 
 	return 0;
 }
