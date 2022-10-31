@@ -3,10 +3,11 @@
 #include "imageio.h"
 
 int main() {
-	// Task A
-	invert("image1.pgm");
+	invert("image1.pgm"); // Task A
 
+	invert_half("image2.pgm"); // Task B
 
+	box("image2.pgm"); // Task C
 
 	return 0;
 }
