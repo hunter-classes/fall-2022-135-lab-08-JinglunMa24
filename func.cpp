@@ -61,8 +61,8 @@ void frame(std::string file) {
 
 	for (int row = height / 4; row < height * 3/4; row++) {
 		for (int col = width / 4; col < width * 3/4; col++) {
-			if (row == height / 4 || row == height * 3/4 - 1|| col == width / 4 || col == width * 3/4 - 1) {
-				image[row][col] == 255;
+			if (row == height / 4 || row == height * 3/4 - 1 || col == width / 4 || col == width * 3/4 - 1) {
+				image[row][col] = 255;
 			}
 		}
 	}
